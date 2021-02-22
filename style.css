@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#thanhMenu {
+  background-color: brown;
+  padding-left: 120px;
+}
+#thanhMenu ul {
+  color: aliceblue;
+}
+#thanhMenu ul li {
+  display: inline-table;
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  position: relative;
+}
+#thanhMenu ul li a {
+  color: aliceblue;
+  text-decoration: none;
+  display: block;
+}
+.sub-menu {
+  background-color: brown;
+}
+#thanhMenu ul li a:hover {
+  background-color: black;
+  cursor: pointer;
+}
+#thanhMenu ul li > .sub-menu {
+  display: none;
+  cursor: pointer;
+  position: absolute;
+}
+#thanhMenu ul li:hover .sub-menu {
+  display: block;
+}
